@@ -1,0 +1,311 @@
+[
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 2311162.217155,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": 754734.6711774063,
+            "ymin": 6014297.069161376,
+            "xmax": 1634066.2445700304,
+            "ymax": 6571981.627529994
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "trackRenderer": {
+      "trackLayerName": "Stork Track Points",
+      "trackFieldName": "tag_local_identifier",
+      "trackInfo": {
+            "enabled": true,
+            "timeField": "startTimeField",
+            "latestObservations": {
+              "visible": true,
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "simple-marker",
+                  "style": "circle",
+                  "color": "#de6231",
+                  "size": 4,
+                  "outline": {
+                    "color": "#de6231",
+                    "width": 4
+                  }
+                }
+              }
+            },
+            "previousObservations": {
+              "enabled": false,
+              "visible": false,
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "simple-marker",
+                  "style": "circle",
+                  "color": "white",
+                  "size": 2
+                }
+              }
+            },
+            "trackLines": {
+              "visible": true,
+              "enabled": true,
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "simple-line",
+                  "color": "#de6231",
+                  "width": 1.25
+                }
+              }
+            }
+          }
+        },
+    "timeSlider": {
+      "timeSliderStart": "2014-07-28T00:00:00Z",
+      "timeSliderEnd": "2014-09-01T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 9244648.868618,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -1457767.794297814,
+            "ymin": 4181505.417192461,
+            "xmax": 2059558.4992719213,
+            "ymax": 6412243.650666451
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2014-09-01T00:00:00Z",
+      "timeSliderEnd": "2014-09-22T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 4622324.434309,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -1389524.48513841,
+            "ymin": 4051207.5575788375,
+            "xmax": 369138.66164645756,
+            "ymax": 5166576.674315833
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points", "Stork Track Points - Spain Bins"],
+      "layersOff": ["Landfill points", "Stork Track Points-Copy"]
+    },
+    "timeSlider": {
+      "timeSliderStart": "2014-09-22T00:00:00Z",
+      "timeSliderEnd": "2015-08-10T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 4622324.434309,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -1389524.48513841,
+            "ymin": 4051207.5575788375,
+            "xmax": 369138.66164645756,
+            "ymax": 5166576.674315833
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points", "Landfill points", "Stork Track Points - Spain Bins"],
+      "layersOff": ["Stork Track Points-Copy"]
+    },
+    "timeSlider": {
+      "timeSliderStart": "2015-08-10T00:00:00Z",
+      "timeSliderEnd": "2015-08-10T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 18055.954822,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -658254.9065518193,
+            "ymin": 4468131.387576215,
+            "xmax": -651385.128634508,
+            "ymax": 4472488.298188584
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points", "Stork Track Points-Copy"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2015-08-10T00:00:00Z",
+      "timeSliderEnd": "2015-08-10T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 18489297.737236,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -4171504.9477274837,
+            "ymin": 551030.4618613995,
+            "xmax": 2863147.639411987,
+            "ymax": 5012506.92880938
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": ["Stork Track Points - Spain Bins", "Landfill points", "Stork Track Points-Copy"]
+    },
+    "timeSlider": {
+      "timeSliderStart": "2015-08-10T00:00:00Z",
+      "timeSliderEnd": "2015-08-24T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 9244648.868618,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -1590707.1205685975,
+            "ymin": 409460.6642215578,
+            "xmax": 1894821.3692345133,
+            "ymax": 2603509.1241186736
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2015-08-24T00:00:00Z",
+      "timeSliderEnd": "2016-02-21T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 9244648.868618,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -1997925.1893929292,
+            "ymin": 1207723.96268415,
+            "xmax": 1519401.104176806,
+            "ymax": 3438462.196158141
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2016-02-21T00:00:00Z",
+      "timeSliderEnd": "2016-03-02T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 1155581.108577,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -257070.67586990376,
+            "ymin": 3063068.006964105,
+            "xmax": 182595.11082621804,
+            "ymax": 3341910.286148294
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2016-03-02T00:00:00Z",
+      "timeSliderEnd": "2016-03-29T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
+        "scale": 18489297.737236,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -3525107.1563161877,
+            "ymin": 2331584.7555322046,
+            "xmax": 3509545.430823283,
+            "ymax": 6793061.222480185
+        }
+    },
+    "layerVisibility": {
+      "layersOn": ["Stork Track Points"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2016-03-29T00:00:00Z",
+      "timeSliderEnd": "2016-05-08T00:00:00Z",
+      "timeSliderUnit": "hours",
+      "timeSliderStep": 1
+    }    
+  }
+]
