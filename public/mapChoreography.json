@@ -18,6 +18,22 @@
   {
     "viewpoint": {
         "rotation": 0,
+        "scale": 4513.988705,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -13312289.23602416,
+            "ymin": 4542331.257103323,
+            "xmax": -13310755.718144316,
+            "ymax": 4543355.991013684
+        }
+    }  
+  },
+  {
+    "viewpoint": {
+        "rotation": 0,
         "scale": 18055.954822,
         "targetGeometry": {
             "spatialReference": {
@@ -32,9 +48,23 @@
     }   
   },
   {
+    "viewpoint": {
+      "rotation": 0,
+      "scale": 18055.954822,
+      "targetGeometry": {
+          "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+          },
+          "xmin": -13315687.833256636,
+          "ymin": 4539613.795716402,
+          "xmax": -13308818.055339325,
+          "ymax": 4543946.819757433
+      }
+    },
     "layerVisibility": {
       "layersOn": ["Yosemite Hiking Route"],
-      "layersOff": []
+      "layersOff": ["AdobeStock_108886138"]
     },
     "timeSlider": {
       "timeSliderStart": "2025-09-13T14:20:00Z",
@@ -46,37 +76,37 @@
   {
     "layerVisibility": {
       "layersOn": ["AdobeStock_108886138"],
-      "layersOff": []
+      "layersOff": ["Yosemite Hiking Route"]
     },
     "viewpoint": {
-      "rotation": 0,
-      "scale": 9027.977411,
-      "targetGeometry": {
-          "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-          },
-          "xmin": -13311899.856919235,
-          "ymin": 4540153.632228698,
-          "xmax": -13308830.432502078,
-          "ymax": 4542203.1000496475
-      }
+        "rotation": 0,
+        "scale": 9027.977411,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -13311377.814036408,
+            "ymin": 4540397.517854373,
+            "xmax": -13308308.389619252,
+            "ymax": 4542446.985675323
+        }
     }
   },
   {
     "viewpoint": {
-      "rotation": 0,
-      "scale": 9027.977411,
-      "targetGeometry": {
-          "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-          },
-          "xmin": -13307865.107107129,
-          "ymin": 4540167.133739915,
-          "xmax": -13304795.682689972,
-          "ymax": 4542216.601560865
-      }
+        "rotation": 0,
+        "scale": 9027.977411,
+        "targetGeometry": {
+            "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+            },
+            "xmin": -13308392.823050588,
+            "ymin": 4540315.641032673,
+            "xmax": -13305323.398633432,
+            "ymax": 4542365.108853623
+        }
     }
   }
 ]
