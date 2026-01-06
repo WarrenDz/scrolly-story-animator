@@ -31,7 +31,7 @@
         }
     },
     "layerVisibility": {
-      "layersOn": [],
+      "layersOn": ["Map annotations"],
       "layersOff": ["Yosemite Hiking Route"]
     }
   },
@@ -78,13 +78,13 @@
     },
     "layerVisibility": {
       "layersOn": [],
-      "layersOff": ["Panorama media layer"]
+      "layersOff": ["Panorama media layer", "Media annotations"]
     }
   },
   {
     "layerVisibility": {
-      "layersOn": ["Panorama media layer"],
-      "layersOff": ["Yosemite Hiking Route"]
+      "layersOn": ["Panorama media layer", "Media annotations"],
+      "layersOff": ["Yosemite Hiking Route", "Map annotations"]
     },
     "viewpoint": {
         "rotation": 0,
