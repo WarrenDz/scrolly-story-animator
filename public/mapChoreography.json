@@ -29,7 +29,11 @@
             "xmax": -13310755.718144316,
             "ymax": 4543355.991013684
         }
-    }  
+    },
+    "layerVisibility": {
+      "layersOn": [],
+      "layersOff": ["Yosemite Hiking Route"]
+    }
   },
   {
     "viewpoint": {
@@ -45,7 +49,17 @@
             "xmax": -13308818.055339325,
             "ymax": 4543946.819757433
         }
-    }   
+    },
+    "layerVisibility": {
+      "layersOn": ["Yosemite Hiking Route"],
+      "layersOff": []
+    },
+    "timeSlider": {
+      "timeSliderStart": "2025-09-13T14:20:00Z",
+      "timeSliderEnd": "2025-09-13T16:10:00Z",
+      "timeSliderUnit": "minutes",
+      "timeSliderStep": 1
+    }       
   },
   {
     "viewpoint": {
@@ -65,13 +79,7 @@
     "layerVisibility": {
       "layersOn": ["Yosemite Hiking Route"],
       "layersOff": ["AdobeStock_108886138"]
-    },
-    "timeSlider": {
-      "timeSliderStart": "2025-09-13T14:20:00Z",
-      "timeSliderEnd": "2025-09-13T16:10:00Z",
-      "timeSliderUnit": "minutes",
-      "timeSliderStep": 1
-    }    
+    }
   },
   {
     "layerVisibility": {
