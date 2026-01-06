@@ -56,7 +56,7 @@
     },
     "timeSlider": {
       "timeSliderStart": "2025-09-13T14:20:00Z",
-      "timeSliderEnd": "2025-09-13T16:10:00Z",
+      "timeSliderEnd": "2025-09-13T16:20:00Z",
       "timeSliderUnit": "minutes",
       "timeSliderStep": 1
     }       
