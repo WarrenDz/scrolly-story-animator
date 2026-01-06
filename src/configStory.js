@@ -1,8 +1,3 @@
-// Defines the story node representing the sidecar block
-export const nodeConfig = {
-    nodeSelector: '#n-HBRFEg',
-};
-
 function generateScriptConfig() {
   window.storyMapsEmbedConfig = {
       storyId: "7f3db979115448cba7bccbf744b43766",

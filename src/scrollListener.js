@@ -1,4 +1,4 @@
-import { nodeConfig } from './configStory.js';
+import { nodeConfig } from './configNode.js';
 import { log } from './logger.js';
 // This sets shared state variables used across the scroll-driven story map
 let isDocked = false;
