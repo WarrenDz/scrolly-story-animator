@@ -78,12 +78,12 @@
     },
     "layerVisibility": {
       "layersOn": [],
-      "layersOff": ["AdobeStock_108886138"]
+      "layersOff": ["Panorama media layer"]
     }
   },
   {
     "layerVisibility": {
-      "layersOn": ["AdobeStock_108886138"],
+      "layersOn": ["Panorama media layer"],
       "layersOff": ["Yosemite Hiking Route"]
     },
     "viewpoint": {
