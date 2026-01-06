@@ -29,10 +29,6 @@
             "xmax": -13310755.718144316,
             "ymax": 4543355.991013684
         }
-    },
-    "layerVisibility": {
-      "layersOn": ["Map annotations"],
-      "layersOff": ["Yosemite Hiking Route"]
     }
   },
   {
@@ -51,7 +47,7 @@
         }
     },
     "layerVisibility": {
-      "layersOn": ["Yosemite Hiking Route"],
+      "layersOn": ["Yosemite Hiking Route", "Map annotations"],
       "layersOff": []
     },
     "timeSlider": {
@@ -77,7 +73,7 @@
         }
     },
     "layerVisibility": {
-      "layersOn": [],
+      "layersOn": ["Yosemite Hiking Route"],
       "layersOff": ["Panorama media layer", "Media annotations"]
     }
   },
