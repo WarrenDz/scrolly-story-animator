@@ -6,7 +6,7 @@ import "@arcgis/core/assets/esri/themes/light/main.css";
 // Animation configuration
 import { animationConfig } from "./configAnimation.js";
 import { slideAnimation } from "./animateOnSlide.js";
-import {scrollAnimation } from "./animateOnScroll.js";
+import { scrollAnimation } from "./animateOnScroll.js";
 
 let slides = [];
 let mapElement = null;
@@ -105,7 +105,8 @@ export function configureMap(animationConfig) {
 function setupHashListener() {
   window.addEventListener("hashchange", function () {
     console.log("Hash changed to: " + window.location.hash);
-    const hashIndex = parseInt(window.location.hash.substring(1), 10);
+    hashIndexLast = hashIndex
+    hashIndex = parseInt(window.location.hash.substring(1), 10);
 
     if (isNaN(hashIndex) || !slides[hashIndex]) {
       console.log("No valid hash index found.");

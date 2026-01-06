@@ -42,5 +42,41 @@
       "timeSliderUnit": "minutes",
       "timeSliderStep": 1
     }    
+  },
+  {
+    "layerVisibility": {
+      "layersOn": ["AdobeStock_108886138"],
+      "layersOff": []
+    },
+    "viewpoint": {
+      "rotation": 0,
+      "scale": 9027.977411,
+      "targetGeometry": {
+          "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+          },
+          "xmin": -13311899.856919235,
+          "ymin": 4540153.632228698,
+          "xmax": -13308830.432502078,
+          "ymax": 4542203.1000496475
+      }
+    }
+  },
+  {
+    "viewpoint": {
+      "rotation": 0,
+      "scale": 9027.977411,
+      "targetGeometry": {
+          "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+          },
+          "xmin": -13307865.107107129,
+          "ymin": 4540167.133739915,
+          "xmax": -13304795.682689972,
+          "ymax": 4542216.601560865
+      }
+    }
   }
 ]
