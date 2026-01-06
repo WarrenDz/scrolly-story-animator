@@ -4,7 +4,7 @@ export const animationConfig = {
   "itemId": "de29582d1c114221b571016576ab3f2f",
   "zoom": "4",
   "center": "-119.57, 37.74",
-  "timePlayRate": "2000",
+  "timePlayRate": "100",
   "debugMode": true,
   "disableMapNav": false,
   "mapFit": "extent",

@@ -1,20 +1,20 @@
 import "@arcgis/map-components/components/arcgis-map";
-import "@arcgis/map-components/components/arcgis-scene";
 import "@arcgis/map-components/components/arcgis-time-slider";
-import "@esri/calcite-components/components/calcite-button";
 import "@arcgis/map-components/components/arcgis-expand";
 import "@arcgis/core/assets/esri/themes/light/main.css";
-import "@esri/calcite-components/components/calcite-slider";
 
 // Animation configuration
 import { animationConfig } from "./configAnimation.js";
 import { slideAnimation } from "./animateOnSlide.js";
+import {scrollAnimation } from "./animateOnScroll.js";
 
 let slides = [];
 let mapElement = null;
 let mapView = null;
 let timeSlider = null;
 let isEmbedded = false;
+let hashIndexLast = null;
+let hashIndex = null;
 
 export async function loadChoreography(path) {
     try {
@@ -100,7 +100,7 @@ export function configureMap(animationConfig) {
 
 /**
  * Listen for changes in the URL hash and triggers slide animation
- * based on the corresponding index in choreographyData.
+ * based on the corresponding index in slides.
  */
 function setupHashListener() {
   window.addEventListener("hashchange", function () {
@@ -114,6 +114,41 @@ function setupHashListener() {
 
     const currentSlide = slides[hashIndex];
     slideAnimation(currentSlide, mapView, timeSlider, isEmbedded);
+  });
+}
+
+/**
+ * Listen for postMessage events from the "storymap-controller" to coordinate map animations.
+ * Determines whether the map is embedded and sets up hash animation if not.
+ * Triggers scroll-based animations based on slide progress and static slide updates
+ * when the slide index changes.
+ */
+function setupMessageListener() {
+  window.addEventListener("message", (event) => {
+    if (event.data.source !== "storymap-controller") return;
+
+    const payload = event.data.payload;
+
+    if (payload.isEmbedded) {
+      // log("This story is being viewed via script embed - deferring to scroll animation.");
+      isEmbedded = true;
+    } else {
+      // log("Map is not embedded — enabling hash-based navigation.");
+      isEmbedded = false;
+    }
+
+    const currentSlide = slides[payload.slide];
+    const nextSlide = slides[payload.slide + 1];
+
+    // Scroll-based animation
+    scrollAnimation(currentSlide, nextSlide, payload.progress, mapView, timeSlider);
+    
+
+    // Slide change detection
+    if (payload.slide !== hashIndexLast) {
+      hashIndexLast = payload.slide;
+      slideAnimation(currentSlide, mapView, timeSlider, isEmbedded); // using isEmbedded to mute some property changes when viewed in embed
+    }
   });
 }
 
@@ -140,6 +175,7 @@ async function initMapAnimator() {
     timeSlider = document.querySelector('arcgis-time-slider');
     slides = await loadChoreography(animationConfig.mapChoreography);
     setupHashListener();
+    setupMessageListener();
 
   } catch (err) {
     console.error('initMapAnimator failed:', err);

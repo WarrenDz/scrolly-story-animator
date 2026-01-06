@@ -1,6 +1,6 @@
 #mapContainer {
-  display: block;
-  height: 100vh;
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
   width: 100%;
 }
-

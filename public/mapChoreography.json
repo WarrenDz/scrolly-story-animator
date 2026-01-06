@@ -13,13 +13,7 @@
             "xmax": -13310755.718144316,
             "ymax": 4543355.991013684
         }
-    },
-    "timeSlider": {
-      "timeSliderStart": "2025-09-13T09:00:00Z",
-      "timeSliderEnd": "2025-09-13T09:00:00Z",
-      "timeSliderUnit": "minutes",
-      "timeSliderStep": 5
-    }    
+    }  
   },
   {
     "viewpoint": {
@@ -35,20 +29,18 @@
             "xmax": -13308818.055339325,
             "ymax": 4543946.819757433
         }
-    },
-      "timeSlider": {
-      "timeSliderStart": "2025-09-13T02:00:00Z",
-      "timeSliderEnd": "2025-09-13T02:00:00Z",
-      "timeSliderUnit": "minutes",
-      "timeSliderStep": 5
-    }    
+    }   
   },
   {
+    "layerVisibility": {
+      "layersOn": ["Yosemite Hiking Route"],
+      "layersOff": []
+    },
     "timeSlider": {
-      "timeSliderStart": "2025-09-13T2:00:00Z",
-      "timeSliderEnd": "2025-09-13T04:30:00Z",
+      "timeSliderStart": "2025-09-13T14:20:00Z",
+      "timeSliderEnd": "2025-09-13T16:10:00Z",
       "timeSliderUnit": "minutes",
-      "timeSliderStep": 5
+      "timeSliderStep": 1
     }    
   }
 ]
