@@ -112,5 +112,17 @@
             "ymax": 4542365.108853623
         }
     }
+  },
+    {
+    "layerVisibility": {
+      "layersOn": ["Wave 1", "Wave 2", "Wave 3", "Wave 4", "Wave 5"],
+      "layersOff": ["Panorama media layer", "Media annotations"]
+    },
+    "timeSlider": {
+      "timeSliderStart": "2026-03-11T00:00:00Z",
+      "timeSliderEnd": "2026-03-11T05:00:00Z",
+      "timeSliderUnit": "minutes",
+      "timeSliderStep": 1
+    }
   }
 ]
